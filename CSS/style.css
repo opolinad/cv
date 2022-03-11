@@ -131,6 +131,7 @@ position: absolute;
 }
 .listado-trabajo{
     margin: 40px;
+    cursor: pointer;
 }
 #img-experiencia{
     margin-top: 10vh;
@@ -152,4 +153,11 @@ position: absolute;
     border: 1px solid black;
     width: 50%;
     margin: 20px auto;
+}
+.titulo-tarjeta-empleo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.notVisible{
+    display:none
 }
