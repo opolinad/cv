@@ -1,0 +1,74 @@
+:root{
+    --color-fondo-tarjeta:rgb(230, 230, 230);
+    --color-fondo-div1:rgb(230, 230, 230);
+    --color-fondo-div2:rgb(210, 210, 210);
+    --font-size-titles:3rem;
+    --letter-sapacing-titles:0.5rem;
+}
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+h1{
+    margin: 0;
+    padding: 5vh 0;
+}
+a{
+    text-decoration: none;
+    padding: 0 30px;
+    display: inline-block;
+    padding-top: 7px;
+}
+#container{
+    height: 100vh;
+}
+#navBar{
+    width: 100vw;
+    height: 5vh;
+    /* background-color: lightcoral; */
+}
+#login{
+    float: right;
+}
+#menu{
+    width: 20vw;
+    text-align: center;
+    height: 95vh;
+    float: left;
+}
+#visualizacion{
+    height: 95vh;
+    overflow: hidden;
+}
+.listado-trabajo{
+    margin: 40px;
+    cursor: pointer;
+}
+#img-experiencia{
+    margin-top: 10vh;
+    margin-left: 1vh;
+    max-width: 18vw;
+}
+#descr-experiencia{
+    margin: 0;
+    padding: 3vh 2vw;
+    text-align: justify;
+    overflow: hidden;
+}
+#contenedor-tarjetas{
+    overflow-y: scroll;
+    height: 72vh;
+}
+.tarjeta-empleo{
+    border: 1px solid black;
+    width: 50%;
+    margin: 20px auto;
+}
+.titulo-tarjeta-empleo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.notVisible{
+    display:none
+}
