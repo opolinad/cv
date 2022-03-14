@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    padding: 0 30px;
+    display: inline-block;
+    padding-top: 7px;
+    color: black;
+}
+h1{
+    font-size: 1.6em;
+}
+h2{
+    margin: 3vh 2vw;
+}
+ul{
+    margin:2.5vh 3.5vw;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: auto;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+#navBar{
+    width: 100vw;
+    height: 5vh;
+}
+#login{
+    float: right;
+}
+#menu{
+    width: 22vw;
+    text-align: center;
+    height: 95vh;
+    float: left;
+}
+#profile-picture{
+    max-width: 15vw;
+    border-radius: 50%;
+    padding-top: 5vh;
+}
+#email{
+    position: relative;
+    top: -7px;
+}
+a img{
+    max-width: 35px;
+    margin-top: 15px;
+}
+#links-platforms{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#links-platforms a{
+    padding: 0;
+}
+#text-wa{
+    position: relative;
+    top: -6px;
+}
+#cv-download{
+    width: fit-content;
+    margin: 5vh auto;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+#content{
+    height: 95vh;
+    overflow: hidden;
+}
+div#content p{
+    margin: 0 2vw;
+    text-align: justify;
+}
+#content{
+    display: grid;
+    grid-template-columns:35% 65%;
+    grid-template-rows: 30% 30% 40%;
+    grid-template-areas:
+    "about about"
+    "tech-skills why-me"
+    "soft-skills why-me";
+}
+#about{
+    grid-area: about;
+}
+#tech-skills{
+    grid-area: tech-skills;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas:
+    "title title"
+    "ts1 ts2";
+}
+#tech-skills h2{
+    grid-area: title;
+}
+#tech-1{
+    grid-area: ts1;
+}
+#tech-2{
+    grid-area: ts2;
+}
+#soft-skills{
+    grid-area: soft-skills;
+}
+#why-me{
+    grid-area: why-me;
+}
+#images{
+    grid-area: examples;
+    display: flex;
+    padding-top: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    max-height: 30vh;
+    display: none;
+}
+#button-1, #button-2{
+    font-size: 3em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 20px;
+}
+#first-image{
+    display: block;
+}
