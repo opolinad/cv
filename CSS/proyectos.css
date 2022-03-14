@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    padding: 0 30px;
+    display: inline-block;
+    padding-top: 7px;
+    color: black;
+}
+#navBar{
+    width: 100vw;
+    height: 5vh;
+}
+#login{
+    float: right;
+}
+#card-container{
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 47vw;
+    text-align: center;
+    margin: 20px 0;
+    display: none;
+    padding: 2vh 0;
+    height: fit-content;
+}
+.img-card{
+    max-width: 45vw;
+    border-radius: 15px;
+}
+.description{
+    font-size: 0.85em;
+    text-align: justify;
+    padding: 0 15px;
+}
+#first-card{
+    display: block;
+}
+#button-1, #button-2{
+    font-size: 3em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 30px;
+}
